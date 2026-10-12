@@ -4,3 +4,11 @@
 # 编辑器临时文件
 *~
 *.swp
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 本地缓存不随技能发布
+.cache/
+source-cache/
