@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>保研、考研、实习：五张图演示</title>
+<style>
+:root{--page:#eef2f5;--paper:#ffffff;--ink:#223340;--blue:#294d68;--muted:#617485;--line:#dce5eb;--tint:#e8f0f5;--red:#963c3c}
+*{box-sizing:border-box}body{margin:0;padding:30px;background:#d6dfe6;color:var(--ink);font-family:'Hiragino Sans GB','PingFang SC','Microsoft YaHei',sans-serif}
+.screen-note{max-width:1080px;margin:0 auto 24px;font-size:20px;line-height:1.7}
+.slide{width:1080px;height:1440px;margin:0 auto 32px;background:var(--paper);padding:62px 72px 44px;display:flex;flex-direction:column;overflow:hidden;position:relative}
+.slide::before{content:'';position:absolute;left:0;top:0;bottom:0;width:12px;background:var(--blue)}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:27px;line-height:1.5;color:var(--muted);margin-bottom:36px}.top .sequence{color:var(--blue);font-weight:600}
+h1{font-family:'Songti SC','STSong',serif;font-weight:600;font-size:72px;line-height:1.28;letter-spacing:1px;margin:0 0 34px}h2{font-size:43px;line-height:1.45;margin:0 0 14px}p{margin:0}strong{font-weight:600}
+.content{flex:1;min-height:0;display:flex;flex-direction:column;gap:26px;font-size:38px;line-height:1.62}
+.role{font-size:27px;color:var(--muted);margin:0 0 14px}.message{padding:30px 34px;background:var(--tint);border-radius:24px 24px 4px 24px;margin-left:54px}.response{padding-left:28px;border-left:4px solid var(--line)}.response h2{font-size:43px;color:var(--blue)}
+.insight{padding:24px 28px;background:var(--page);font-size:36px;line-height:1.6}.insight strong{color:var(--blue)}
+.footer{margin-top:26px;border-top:2px solid var(--line);padding-top:21px;color:var(--muted);font-size:24px;line-height:1.65}.footer .name{font-size:27px;color:var(--blue);font-weight:600}
+.cover{background:var(--page)}.cover h1{font-size:82px;line-height:1.28;margin-bottom:42px}.cover .message{background:#fff;font-size:43px;line-height:1.67;margin-left:0;padding:36px}.cover .content{gap:30px}.cover .tagline{font-size:41px;line-height:1.6}.process{margin-top:auto;font-size:31px;line-height:1.9;color:var(--blue)}
+.questions .response{padding:8px 0 8px 28px}.questions .content{gap:34px}
+.compare h1{font-size:69px;margin-bottom:26px}.compare .content{gap:20px}.brief{padding:23px 27px;background:var(--tint);font-size:31px;line-height:1.65;border-radius:18px}.brief .role{font-size:26px;margin-bottom:8px}.plan{display:grid;grid-template-columns:240px 1fr;gap:24px;padding:18px 0;border-bottom:2px solid var(--line)}.plan:last-child{border-bottom:0}.plan h2{font-size:36px;line-height:1.45;margin:0;color:var(--blue)}.plan p{font-size:31px;line-height:1.6}.cost{color:var(--muted);margin-top:8px!important}.compare .insight{font-size:32px;padding:19px 24px}
+.step{display:grid;grid-template-columns:56px 1fr;gap:20px;padding:7px 0 21px;border-bottom:2px solid var(--line)}.step:last-of-type{border-bottom:0}.step .num{color:var(--blue);font-size:37px;line-height:1.7}.step h2{font-size:42px;line-height:1.5;margin-bottom:8px}.step p{font-size:36px;line-height:1.6}.actions .content{gap:23px}
+.feedback h1{font-size:70px;margin-bottom:30px}.feedback .content{gap:22px}.feedback .message{font-size:33px;line-height:1.64;margin-left:32px;padding:24px 30px}.feedback .role{font-size:26px;margin-bottom:8px}.update-list{margin:0;padding-left:40px;font-size:35px;line-height:1.65}.update-list li{padding-bottom:10px}.status{font-size:38px;line-height:1.6;color:var(--red);font-weight:600}.project{margin-top:4px;padding:18px 0 0;border-top:2px solid var(--line);font-size:27px;line-height:1.7}.project strong{font-size:33px;color:var(--blue)}
+@media(max-width:700px){body{padding:16px}.screen-note{font-size:16px}.slide{width:100%;height:auto;min-height:0;padding:28px 26px;margin-bottom:20px}.slide::before{width:6px}.top{font-size:14px;margin-bottom:22px}h1,.cover h1,.compare h1,.feedback h1{font-size:34px;margin-bottom:24px}.content,.cover .message,.cover .tagline{font-size:19px;gap:20px}.message,.feedback .message{margin-left:0;padding:20px;font-size:18px}.role,.feedback .role,.brief .role{font-size:14px}h2,.response h2,.step h2{font-size:22px}.response{padding-left:16px}.insight,.compare .insight{font-size:18px;padding:16px}.footer{font-size:12px}.footer .name{font-size:14px}.process{font-size:16px;margin-top:12px}.brief{font-size:16px;padding:16px}.plan{display:block}.plan h2{font-size:20px;margin-bottom:10px}.plan p{font-size:16px}.step{grid-template-columns:28px 1fr;gap:12px}.step .num{font-size:20px}.step p{font-size:18px}.update-list{font-size:18px;padding-left:24px}.status{font-size:20px}.project{font-size:12px}.project strong{font-size:18px}}
+
+/* Export spacing: reserve a separate footer and keep body text readable. */
+@media(min-width:701px){
+.slide{padding-top:50px}
+.top{margin-bottom:24px}
+h1{font-size:66px;line-height:1.24;margin-bottom:26px}
+.footer{font-size:22px;line-height:1.5;margin-top:22px;padding-top:18px}
+.footer .name{font-size:26px}
+.cover .content{gap:24px}
+.questions .content{gap:28px}
+.compare h1,.feedback h1{font-size:66px;line-height:1.24;margin-bottom:26px}
+.compare .content{gap:14px}
+.brief{padding:20px 27px;line-height:1.45}
+.brief .role{font-size:24px;line-height:1.5}
+.plan{padding:14px 0}
+.plan p{line-height:1.5}
+.cost{margin-top:6px!important}
+.compare .insight{font-size:32px;line-height:1.5;padding:16px 24px}
+.actions .content{gap:20px}
+.step h2{font-size:40px}
+.step p{line-height:1.5}
+.actions .insight{line-height:1.5}
+.feedback .content{gap:12px}
+.feedback .message{line-height:1.55}
+.update-list{line-height:1.5}
+.status{line-height:1.5}
+.project{font-size:26px;line-height:1.55;padding-top:15px}
+.project strong{font-size:31px}
+}
+@media(min-width:701px){.compare .brief,.compare .plan p{font-size:34px}}
+@media(min-width:701px){.slide{height:1600px}.slide>.top,.slide>h1,.slide>.footer,.content>*{flex-shrink:0}}
+</style>
+</head>
+<body>
+<p class="screen-note">以下是现有虚构案例的摘要排版。每张画面都保留编写示范标识；完整对话与方法出处见项目中的 references/baoyan-kaoyan-internship-demo.md。</p>
+
+<section class="slide cover" id="page-1" aria-label="第1张：问题">
+<div class="top"><span>毛选方法 · 现实选择</span><span class="sequence">1 / 5　问题</span></div>
+<h1>保研、考研、实习<br>三条路都想留，<br>先查什么？</h1>
+<div class="content">
+<div class="message"><div class="role">用户（虚构情境摘要）</div><p>我大三，排名 12/60，<br>保研线前 10。<br>考研数学刚起步，<br>又拿到了暑期实习。<br><strong>三条路都不想放，<br>时间越来越不够用。</strong></p></div>
+<p class="tagline">用毛选的方法，<br>把眼前的选择梳理成下一步。</p>
+<p class="process">问题 → 追问 → 取舍 → 行动 → 反馈</p>
+</div>
+<footer class="footer"><div class="name">mao-thought-practice</div><div>虚构案例 · 依据 skill 编写的示范 · 非真实模型运行记录</div></footer>
+</section>
+
+<section class="slide questions" id="page-2" aria-label="第2张：追问">
+<div class="top"><span>先调查，再形成判断</span><span class="sequence">2 / 5　追问</span></div>
+<h1>先问清两组<br>会改变选择的信息</h1>
+<div class="content">
+<div class="role">回应示范（摘要）</div>
+<div class="response"><h2>你真正想获得什么？</h2><p>更看重研究、就业，<br>还是尽早获得收入？<br>家庭是否需要实习收入？</p></div>
+<div class="response"><h2>机会受什么条件限制？</h2><p>保研怎么计分，还有哪些窗口？<br>实习何时答复、何时入职？<br>每天实际有多少可用时间？</p></div>
+<div class="insight"><strong>排名接近资格线，<br>仍不能直接换成成功概率。</strong><br>目标、规则和时间条件，都会改变安排。</div>
+</div>
+<footer class="footer"><div class="name">方法依据：调查研究、具体分析</div><div>虚构案例 · 依据 skill 编写的示范 · 非真实模型运行记录</div></footer>
+</section>
+
+<section class="slide compare" id="page-3" aria-label="第3张：取舍">
+<div class="top"><span>明确范围与机会成本</span><span class="sequence">3 / 5　取舍</span></div>
+<h1>信息补齐后，<br>比较三种安排</h1>
+<div class="content">
+<div class="brief"><div class="role">用户补充（虚构情境摘要）</div><p>目标：做研究；暂不需要实习收入。<br>窗口：两门高学分课计分，差 0.3 综合分。<br>期限：实习两周后答复，期末三周后开始。<br>预算：每天约四小时；原定入职撞期末。</p></div>
+<div>
+<div class="plan"><h2>计分课程优先<br>保留其他备选</h2><div><p>先检验课程提升空间，<br>保留数学最低投入，协商实习。</p><p class="cost">代价：数学放慢；实习条件未定。</p></div></div>
+<div class="plan"><h2>主要投入<br>考研</h2><div><p>课程窗口难以改变资格，<br>且考研准备条件更合适时考虑。</p><p class="cost">代价：减少争取排名的投入。</p></div></div>
+<div class="plan"><h2>接受原定<br>实习安排</h2><div><p>内容与目标相关，或收入等约束<br>使实习更重要时考虑。</p><p class="cost">代价：挤压课程与备考时间。</p></div></div>
+</div>
+<div class="insight"><strong>短期试行，按课程表现与实习回复调整。</strong></div>
+</div>
+<footer class="footer"><div class="name">暂定安排需要事实支持</div><div>虚构案例 · 依据 skill 编写的示范 · 非真实模型运行记录</div></footer>
+</section>
+
+<section class="slide actions" id="page-4" aria-label="第4张：行动">
+<div class="top"><span>把设想放回实践中检验</span><span class="sequence">4 / 5　行动</span></div>
+<h1>下一步，<br>做三个可检验动作</h1>
+<div class="content">
+<div class="step"><span class="num">1</span><div><h2>试做两门课的代表任务</h2><p>记录卡点、独立完成质量和耗时，<br>估计复习需要的时间范围。</p></div></div>
+<div class="step"><span class="num">2</span><div><h2>问清实习内容与时间</h2><p>是否可延后答复或入职？<br>需要提前准备什么？</p></div></div>
+<div class="step"><span class="num">3</span><div><h2>试行三天，再回来复盘</h2><p>以课程缺口为主；数学最低投入<br>由自己确认。总量落在每日约<br>四小时的预算内。</p></div></div>
+<div class="insight"><strong>观察：在可用时间内，<br>独立完成质量有没有改善？</strong><br>三天试行尚不足以证明资格结果。</div>
+</div>
+<footer class="footer"><div class="name">方法依据：胸中有数、实践检验</div><div>虚构案例 · 依据 skill 编写的示范 · 非真实模型运行记录</div></footer>
+</section>
+
+<section class="slide feedback" id="page-5" aria-label="第5张：反馈与调整">
+<div class="top"><span>根据新材料更新认识</span><span class="sequence">5 / 5　反馈</span></div>
+<h1>反馈来了，<br>安排也要跟着改</h1>
+<div class="content">
+<div class="message"><div class="role">用户反馈（虚构情境摘要）</div><p>一门课有进展，另一门基础缺口更大。<br>实习答复延期一周，入职放到期末后；<br>但仍要在成绩公布前答复。</p></div>
+<div class="response"><h2>下一步调整</h2><ul class="update-list"><li>两门课分开安排，继续检验难课<br>所需的基础投入。</li><li>问清实习准备负担和承诺要求，<br>重新比较保留机会的成本。</li><li>在新的答复期限前，<br>结合实际表现重新取舍。</li></ul></div>
+<p class="status">保研资格仍未确定。<br>新的反馈，可以改变原先的安排。</p>
+<div class="project"><strong>用自己的问题试一次</strong><br>完整案例、安装与首次提问：<br>github.com/tenderzzz/mao-thought-practice</div>
+</div>
+<footer class="footer"><div class="name">mao-thought-practice</div><div>虚构案例 · 依据 skill 编写的示范 · 非真实模型运行记录</div></footer>
+</section>
+</body>
+</html>
