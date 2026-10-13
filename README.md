@@ -10,7 +10,7 @@
 
 > 我大三，排名 12/60，保研线前 10，考研数学刚起步，又拿到了暑期实习。三条路都不想放，时间越来越不够用。用毛选思路帮我分析。
 
-[![保研、考研、实习的五张图虚构演示：问题、追问、取舍、行动、反馈](assets/baoyan-screenshots/preview.png)](docs/baoyan-kaoyan-internship-post.md#五张图发布顺序)
+[![保研、考研、实习的五张图虚构演示：问题、追问、取舍、行动、反馈](assets/baoyan-screenshots/preview.png)](references/baoyan-kaoyan-internship-demo.md)
 
 演示从这三个地方展开：
 
@@ -18,7 +18,7 @@
 - **再做取舍**：比较几种安排的适用条件与机会成本，给出能在现有时间内试行的动作。
 - **带反馈回来**：实习条件变化、课程比预想更难时，重新分配投入，并保留仍未解决的不确定性。
 
-**[查看完整对话与判断修正 →](references/baoyan-kaoyan-internship-demo.md)** · [下载五张图与发布文案](docs/baoyan-kaoyan-internship-images.zip)
+**[查看完整对话与判断修正 →](references/baoyan-kaoyan-internship-demo.md)**
 
 *人物、数据、对话和反馈均为虚构；回答是依据 skill 编写的示范，不是某次模型运行记录或录取结果。实际输出会随模型、提供的信息和宿主工具变化。*
 
@@ -105,8 +105,7 @@ references/
   baoyan-kaoyan-internship-demo.md 保研、考研、实习的完整三轮演示
   sources.md                     原文索引与引用方法
   sources.json                   22 篇来源、短引、位置与版本校验值
-assets/                          README 演示图与五张发布图
-docs/                            发布文案、图包与发布步骤
+assets/                          README 预览与案例演示图
 scripts/source_lookup.py          原文检索与核验
 tests/                           脚本检查与行为评估场景
 NOTICE.md                        第三方材料与收录边界

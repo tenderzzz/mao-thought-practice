@@ -12,3 +12,9 @@ __pycache__/
 # 本地缓存不随技能发布
 .cache/
 source-cache/
+
+# 推广资料仅保留在本地
+/docs/baoyan-kaoyan-internship-post.md
+/docs/baoyan-kaoyan-internship-images.zip
+/docs/baoyan-kaoyan-internship-images/
+/assets/baoyan-screenshots/caption.txt
