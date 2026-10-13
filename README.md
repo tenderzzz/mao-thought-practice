@@ -1,8 +1,57 @@
 # mao-thought-practice
 
+**用毛选的方法，把现实选择梳理成可检验的下一步。**
+
 用《毛泽东选集》中的矛盾分析、实践认识、调查研究和战略方法，帮助理解现实处境、比较选择，并通过行动和反馈修正判断。
 
-本 skill 提供可追溯的理论出处和有条件的生活应用。它不会因为引用了理论，就把现实建议视为已经证明的结论。
+[先看三轮演示](references/baoyan-kaoyan-internship-demo.md) · [安装并试一次](#安装并试一次) · [查看其他案例](references/case-studies.md)
+
+## 先看一个问题：保研、考研、实习，如何取舍？
+
+> 我大三，排名 12/60，保研线前 10，考研数学刚起步，又拿到了暑期实习。三条路都不想放，时间越来越不够用。用毛选思路帮我分析。
+
+[![保研、考研、实习的五张图虚构演示：问题、追问、取舍、行动、反馈](assets/baoyan-screenshots/preview.png)](docs/baoyan-kaoyan-internship-post.md#五张图发布顺序)
+
+演示从这三个地方展开：
+
+- **先补信息**：目标、计分规则、课程提升空间、实习期限与经济需要，会改变选择。
+- **再做取舍**：比较几种安排的适用条件与机会成本，给出能在现有时间内试行的动作。
+- **带反馈回来**：实习条件变化、课程比预想更难时，重新分配投入，并保留仍未解决的不确定性。
+
+**[查看完整对话与判断修正 →](references/baoyan-kaoyan-internship-demo.md)** · [下载五张图与发布文案](docs/baoyan-kaoyan-internship-images.zip)
+
+*人物、数据、对话和反馈均为虚构；回答是依据 skill 编写的示范，不是某次模型运行记录或录取结果。实际输出会随模型、提供的信息和宿主工具变化。*
+
+## 安装并试一次
+
+使用 Hermes Agent 时，把整个仓库安装到技能目录：
+
+```bash
+git clone https://github.com/tenderzzz/mao-thought-practice.git ~/.hermes/skills/mao-thought-practice
+```
+
+请保留整个目录，供模型按需读取 references。已有安装可在该目录更新仓库；技能加载与刷新方式以宿主版本为准。[其他工具的使用方式](#其他工具与运行说明)见下文。
+
+确认宿主已加载 skill 后，复制下面的提问，把方括号换成自己的情况；不知道的信息可以写“不清楚”。
+
+```text
+用毛选的方法帮我分析保研、考研和实习的取舍。
+我真正看重的结果：[读研方向、就业、收入或其他目标]
+已知规则与进度：[排名、计分规则、备考进度、实习内容]
+关键日期：[实习答复与入职、考试、资格确认等]
+可用时间与现实限制：[每天可用时间、经济需要、其他义务]
+已经试过的办法与结果：[按实际填写]
+请先指出会改变判断的信息缺口，再比较方案，给出可检验的下一步。
+```
+
+试行后可以接着说：
+
+```text
+接着上次的分析复盘：我实际做了……，观察到……，条件变成了……。
+请检查原判断哪些仍成立、哪些需要修改，再调整下一步。
+```
+
+本 skill 提供可追溯的理论出处和有条件的生活应用。现实建议仍需事实与实践反馈支持。
 
 ## 怎么使用
 
@@ -32,17 +81,9 @@
 最不确定的地方：
 ```
 
-## 安装
+## 其他工具与运行说明
 
 请保留整个目录，让模型能按需读取 references；只复制 SKILL.md 会丢失理论说明、案例和出处。
-
-### Hermes Agent
-
-```bash
-git clone https://github.com/tenderzzz/mao-thought-practice.git ~/.hermes/skills/mao-thought-practice
-```
-
-已有安装可在该目录更新仓库。由宿主的技能加载机制读取 SKILL.md；具体加载与刷新方式以宿主版本为准。
 
 ### 其他支持技能目录的工具
 
@@ -60,9 +101,12 @@ references/
   glossary.md                    24 个概念的解释与常见混淆
   works-guide.md                 按问题选择篇目的阅读路线
   scenario-mapping.md             现实场景中的调查重点
-  case-studies.md                 信息不足、完整分析及反馈修正示范
+  case-studies.md                 不同场景的使用案例
+  baoyan-kaoyan-internship-demo.md 保研、考研、实习的完整三轮演示
   sources.md                     原文索引与引用方法
   sources.json                   22 篇来源、短引、位置与版本校验值
+assets/                          README 演示图与五张发布图
+docs/                            发布文案、图包与发布步骤
 scripts/source_lookup.py          原文检索与核验
 tests/                           脚本检查与行为评估场景
 NOTICE.md                        第三方材料与收录边界

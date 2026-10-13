@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title description">
+  <title id="title">保研、考研、实习：三轮虚构演示</title>
+  <desc id="description">从补充目标与规则，到比较投入，再根据课程试做和实习回复修正判断。图中人物、数据和对话均为编写示范。</desc>
+  <rect width="1200" height="960" rx="24" fill="#f7f3ea"/>
+  <g font-family="Hiragino Sans GB, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+  <rect x="48" y="46" width="6" height="73" rx="3" fill="#a33732"/>
+  <text x="74" y="68" font-size="19" letter-spacing="1.2" fill="#a33732">MAO-THOUGHT-PRACTICE · 体验预览</text>
+  <text x="74" y="113" font-size="38" font-weight="600" fill="#282824">保研、考研、实习，如何取舍？</text>
+  <rect x="48" y="148" width="1104" height="102" rx="16" fill="#ece6d9"/>
+  <text x="72" y="184" font-size="18" fill="#6a6156">初次提问</text>
+  <text x="72" y="220" font-size="25" fill="#282824">“三条路都不想放，时间越来越不够用。”</text>
+  <rect x="48" y="278" width="1104" height="168" rx="16" fill="#fffdfa" stroke="#e2dbcf"/>
+  <text x="72" y="316" font-size="23" fill="#a33732">01</text>
+  <text x="116" y="315" font-size="19" fill="#6a6156">补充信息</text>
+  <text x="72" y="356" font-size="29" font-weight="600" fill="#282824">目标与规则，会改变选择</text>
+  <text x="72" y="393" font-size="23" fill="#514b43">想做研究，还是更需要收入？</text>
+  <text x="72" y="425" font-size="23" fill="#514b43">计分窗口、实习期限、每天可用时间分别是什么？</text>
+  <rect x="48" y="470" width="1104" height="168" rx="16" fill="#fffdfa" stroke="#e2dbcf"/>
+  <text x="72" y="508" font-size="23" fill="#a33732">02</text>
+  <text x="116" y="507" font-size="19" fill="#6a6156">比较与行动</text>
+  <text x="72" y="548" font-size="29" font-weight="600" fill="#282824">先用实际任务校准投入</text>
+  <text x="72" y="585" font-size="23" fill="#514b43">试做课程任务，了解实习内容与延期条件。</text>
+  <text x="72" y="617" font-size="23" fill="#514b43">在每天约四小时的预算内，试行三天并记录结果。</text>
+  <rect x="48" y="662" width="1104" height="168" rx="16" fill="#fffdfa" stroke="#e2dbcf"/>
+  <text x="72" y="700" font-size="23" fill="#a33732">03</text>
+  <text x="116" y="699" font-size="19" fill="#6a6156">反馈与修正</text>
+  <text x="72" y="740" font-size="29" font-weight="600" fill="#282824">新材料来了，安排跟着改</text>
+  <text x="72" y="777" font-size="23" fill="#514b43">一门课比预想更难；实习同意延后答复与入职。</text>
+  <text x="72" y="809" font-size="23" fill="#514b43">分开安排课程；答复早于成绩公布，仍需取舍。</text>
+  <text x="48" y="879" font-size="21" fill="#a33732">先调查 → 比较取舍 → 实践检验 → 更新判断</text>
+  <text x="48" y="922" font-size="17" fill="#74695e">虚构案例 · 依据 skill 编写的示范 · 非模型运行记录 · 未展示最终录取结果</text>
+  </g>
+</svg>
